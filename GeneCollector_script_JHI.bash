@@ -62,7 +62,7 @@ abricate ${JBD}/genomes_skesa_job/*_skesa.fasta >  ${JBD}/abricate/Abricate_out.
 
 echo "Start genecollector"
 
-cp /home/[user]/vre/genecollector/genecollector_Seb.py ${JBD}/genecollector/transposon_typing_AUMC.py
+cp /home/[user]/vre/genecollector/transposon_typing_AUMC.py ${JBD}/genecollector/transposon_typing_AUMC.py
 cd ${JBD}/genecollector/
 python3 transposon_typing_AUMC.py
 cd ..
